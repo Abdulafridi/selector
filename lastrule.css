@@ -1,0 +1,46 @@
+/* Last Rule */
+/* h1{
+    color: red;
+}
+h1{
+    color: blue;
+} */
+/* specificity */
+/* *{
+    color: red;
+}
+p{
+    color: blue;
+}
+#para{
+    color: green;
+} */
+
+/* important */
+
+    /* p{
+         color: red;
+    }
+    p{
+        color: violet;
+    }
+    p{
+        color: blue !important;
+    }
+    p{
+        color: green;
+    } */
+
+    /* inhertince */
+    body
+    {
+
+        border: solid red;
+        padding: 10px;
+        color: blue;
+    }
+    .inhertince{
+        border: solid skyblue;
+        padding: 10px;
+        color: inherit;
+    }
